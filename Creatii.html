@@ -45,59 +45,68 @@
 			<h1> LUCRĂRI REALIZATE DE UTILIZATORI <i>PHOTOSHOP</i> </h1>
 		</center>
 
-		<p>&nbsp; </p>
 		<br />
 
+		<center>
+			<h1> Introduceti poze.</h2>
+		</center>
+
+		<br><br>
+
+		<input id="name" placeholder="Name">
+		<input id="url" placeholder="Image URL">
+		<button id="addphoto" onclick="addphoto()">Add</button>
+		<button id="updatephoto" onclick="updatephoto()">Update</button>
+		<br>
+		<br>
+		<script src="script.js"></script>
+
 		<div class="imagini">
-			<div class="grid-container">
-				<div class="grid-item">
-					<a target="_blank" href="imagini/creatii/1.png">
-						<img src="imagini/creatii/1.png" alt="1" />
-					</a>
-					<a target="_blank" href="imagini/creatii/4.png">
-						<img src="imagini/creatii/4.png" alt="4" />
-					</a>
-					<a target="_blank" href="imagini/creatii/7.png">
-						<img src="imagini/creatii/7.png" alt="7" />
-					</a>
-					<a target="_blank" href="imagini/creatii/10.png">
-						<img src="imagini/creatii/10.png" alt="10" />
-					</a>
-					<a target="_blank" href="imagini/creatii/13.png">
-						<img src="imagini/creatii/13.png" alt="13" />
-					</a>
-					<a target="_blank" href="imagini/creatii/2.png">
-						<img src="imagini/creatii/2.png" alt="2" />
-					</a>
-					<a target="_blank" href="imagini/creatii/5.png">
-						<img src="imagini/creatii/5.png" alt="5" />
-					</a>
-					<a target="_blank" href="imagini/creatii/8.png">
-						<img src="imagini/creatii/8.png" alt="8" />
-					</a>
-					<a target="_blank" href="imagini/creatii/11.png">
-						<img src="imagini/creatii/11.png" alt="11" />
-					</a>
-					<a target="_blank" href="imagini/creatii/14.png">
-						<img src="imagini/creatii/14.png" alt="14" />
-					</a>
-					<a target="_blank" href="imagini/creatii/3.png">
-						<img src="imagini/creatii/3.png" alt="3" />
-					</a>
-					<a target="_blank" href="imagini/creatii/6.png">
-						<img src="imagini/creatii/6.png" alt="6" />
-					</a>
-					<a target="_blank" href="imagini/creatii/9.png">
-						<img src="imagini/creatii/9.png" alt="9" />
-					</a>
-					<a target="_blank" href="imagini/creatii/12.png">
-						<img src="imagini/creatii/12.png" alt="12" />
-					</a>
-					<a target="_blank" href="imagini/creatii/15.png">
-						<img src="imagini/creatii/15.png" alt="15" />
-					</a>
-				</div>
-			</div>
+			<!-- <a target="_blank" href="imagini/creatii/1.png" class="a-uri">
+				<img src="imagini/creatii/1.png" alt="1" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/4.png" class="a-uri">
+				<img src="imagini/creatii/4.png" alt="4" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/7.png" class="a-uri">
+				<img src="imagini/creatii/7.png" alt="7" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/10.png" class="a-uri">
+				<img src="imagini/creatii/10.png" alt="10" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/13.png" class="a-uri">
+				<img src="imagini/creatii/13.png" alt="13"class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/2.png" class="a-uri">
+				<img src="imagini/creatii/2.png" alt="2" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/5.png" class="a-uri">
+				<img src="imagini/creatii/5.png" alt="5" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/8.png" class="a-uri">
+				<img src="imagini/creatii/8.png" alt="8" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/11.png" class="a-uri">
+				<img src="imagini/creatii/11.png" alt="11" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/14.png" class="a-uri">
+				<img src="imagini/creatii/14.png" alt="14" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/3.png" class="a-uri">
+				<img src="imagini/creatii/3.png" alt="3" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/6.png" class="a-uri">
+				<img src="imagini/creatii/6.png" alt="6" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/9.png" class="a-uri">
+				<img src="imagini/creatii/9.png" alt="9" class="imagine" />
+			</a>
+			<a target="_blank" href="imagini/creatii/12.png" class="a-uri">
+				<img src="imagini/creatii/12.png" alt="12" class="imagine"/>
+			</a>
+			<a target="_blank" href="imagini/creatii/15.png" class="a-uri">
+				<img src="imagini/creatii/15.png" alt="15" class="imagine"/>
+			</a> -->
 		</div>
 
 		<br />
@@ -109,7 +118,7 @@
 		<div id="logo_ig">
 			<a href="https://www.instagram.com/photoshop/" target="_blank">
 
-				<center><img src="imagini/logo_ig.png" width="50" height="50" alt="logo_ig" /> </center>
+				<center><img src="imagini/logo_ig.png" width="50" height="50" alt="logo_ig" title="Photoshop pe Instagram"> </center>
 
 			</a>
 		</div>
@@ -123,6 +132,7 @@
 		</div>
 
 	</div>
+	<script src="Creatii.js"></script>
 
 </body>
 
